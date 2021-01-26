@@ -1,3 +1,192 @@
-img {width:500px;
+
+
+img {
+	width: 350px;
 }
-.logo-img{width:50px;}
+
+
+.container-wide {
+	padding: 0 5%;
+}
+
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.justify-between {
+	justify-content: space-between;
+}
+
+
+.align-center {
+	align-items: center;
+}
+
+
+body {
+	color: #191919;
+	font-family: "Montserrat-Medium";
+	font-size: 16px;
+}
+
+
+.title {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.description {
+	color: #787878;
+	font-family: "NunitoSans-Regular";
+	text-align: center;
+	line-height: 24px;
+	margin: 37px 0;
+}
+
+header {
+	margin-top: 35px;
+}
+
+#logo {
+	width: 100px;
+}
+
+#menu-nav li {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+
+
+#menu-nav li:last-of-type {
+	margin-right: 0px;
+}
+
+
+
+#menu-nav li:hover, #menu-nav li.active {
+	color: #10C9C3;
+}
+
+
+#banner-wrapper {
+	position: relative;
+	top: -63px;
+	z-index: -1;
+}
+
+
+#signature-img {
+	width: 220px;
+	display: block;
+	margin: auto;
+}
+
+
+
+#about-wrapper {
+	margin: auto;
+	padding: 37px 0 100px 0;
+}
+
+
+@media screen and (min-width: 0px) {
+
+
+	#about-wrapper {
+		width: 80%;
+	}
+
+	#menu-nav li {
+		margin-right: 20px;
+	}
+
+}
+
+
+@media screen and (min-width: 426px) {
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+	#about-wrapper {
+		width: 60%;
+	}
+
+	#menu-nav li {
+		margin-right: 30px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+
+
+@media screen and (min-width: 1200px) {
+
+
+	#about-wrapper {
+		width: 45%;
+	}
+
+}
+
+
+.container {
+	background-color: #dadfe1;
+	height: 720px;
+}
+
+#black {
+	color: black;
+}
+
+
+input[type=text] {
+    border: none;
+	height: 40px;
+	margin-right: 20px;
+}
+
+textarea {
+	border: none;
+	margin-left: 480px;
+	padding-right: 130px;
+}
+
+#your-name, #your-title {
+	margin-left: 480px;
+	padding-right: 130px;
+	
+}
+
+#your-email {
+	padding-right: 400px;
+}
+
+#your-title{
+	padding-right: 400px;
+}
+
+input[type=submit] {
+	margin-left: 680px;
+    width: 180px;
+    height: 55px;
+    text-transform: uppercase;
+    background-color: #52b3d9;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: montserrat;
+}
+
+
+
